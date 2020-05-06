@@ -3,7 +3,7 @@
 web server using Git, Jenkins and Docker. It will launch the updated content within a single time-frame as the developer commit the
 changes.*
 
-### Setting up developer environment
+### Setting up the developer environment
 > - First I created a local git repository and initialize it.
 ```
 mkdir devopsal4/
@@ -35,7 +35,7 @@ git push -u origin master
 git branch dev1
 git checkout dev1
 ```
-> - Change the file and Commit it. After it push it to the remote GitHub repo
+> - Change the file and Commit it. After that push it to the remote GitHub repo
 ```
 cat >> linux.html
 git commit linux.html -m "Commited by developer"
@@ -50,6 +50,7 @@ git push
 ```
 > - Reference for the above command.
 ![Image](https://github.com/Shivamshiv/devopsal4/blob/master/Screenshot%20(159).png)
+
 ### To merge the work of different developer
 
 > - To check log of the file and merge the dev1 branch to the master branch
@@ -62,7 +63,7 @@ git merge dev1
 > - Reference for the above command.
 ![Image](https://github.com/Shivamshiv/devopsal4/blob/master/Screenshot%20(154).png)
 
-### Createing docker container for development and testing
+### Creating docker container for development and testing
 > - First check which port are in use and then use the port accordingly for listening
 ```
 netstat -tnlp
