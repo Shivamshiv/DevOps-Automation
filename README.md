@@ -1,5 +1,5 @@
 # DevOps Automation
-*This project is based on Continuous Integration and Continuous Deployment which automates the devlopment and deployment operations of
+*This project is based on Continuous Integration and Continuous Deployment which automates the development and deployment operations of
 web server using Git, Jenkins and Docker. It will launch the updated content within a single time-frame as the developer commit the
 changes.*
 
